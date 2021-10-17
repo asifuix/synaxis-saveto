@@ -343,6 +343,15 @@ a{
 .announcement-links .announcement a:hover{
     background: none;
 }
+.inner-cards a:hover .module-icon{
+    background-color: #3aae2a;
+    border-color: #3aae2a;
+    transition: 0.5s ease-in-out;
+}
+.inner-cards a:hover .module-icon .round-ouline{
+    border-color: #3aae2a;
+    transition: 0.5s ease-in-out;
+}
 /* RESPONSIVE CSS HERE */
 /* 
   ##Device = Desktops
@@ -405,7 +414,7 @@ a{
     }
     .profile-logo{
         top: 102px;
-        left: 332px;
+        left: 81%;
     }
     .modules-body{
         width: 57% !important;
